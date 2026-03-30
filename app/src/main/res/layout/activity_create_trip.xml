@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Terrain -->
+        <TextView
+            android:text="Environment / Terrain"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spinnerTerrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Weather -->
+        <TextView
+            android:text="Weather Type"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <Spinner
+            android:id="@+id/spinnerWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Duration -->
+        <TextView
+            android:text="Duration (Days)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/editDuration"
+            android:hint="Enter number of days"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Min Temp -->
+        <TextView
+            android:text="Minimum Temperature (°C or °F)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/editMinTemp"
+            android:hint="e.g., -5 or 30"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Max Temp -->
+        <TextView
+            android:text="Maximum Temperature (°C or °F)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editMaxTemp"
+            android:hint="e.g., 10 or 85"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Precipitation -->
+        <TextView
+            android:text="Precipitation Chance (%)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editPrecipChance"
+            android:hint="0–100"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Wind -->
+        <TextView
+            android:text="Wind Speed (mph or km/h)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editWindSpeed"
+            android:hint="e.g., 10 or 25"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Distance -->
+        <TextView
+            android:text="Distance (km)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/editDistance"
+            android:hint="e.g., 12.5"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Elevation -->
+        <TextView
+            android:text="Elevation Gain (meters)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editElevation"
+            android:hint="e.g., 850"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Difficulty -->
+        <TextView
+            android:text="Terrain Difficulty"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <Spinner
+            android:id="@+id/spinnerDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Nights -->
+        <TextView
+            android:text="Nights Camping"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editNights"
+            android:hint="e.g., 1, 2, 3"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Campsite -->
+        <TextView
+            android:text="Campsite Type"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerCampsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cooking -->
+        <TextView
+            android:text="Cooking Method"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerCookMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Group Size -->
+        <TextView
+            android:text="Group Size"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/editGroupSize"
+            android:hint="e.g., 1"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Experience -->
+        <TextView
+            android:text="Experience Level"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Navigation -->
+        <TextView
+            android:text="Navigation Method"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cell Coverage -->
+        <TextView
+            android:text="Cell Coverage"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerCoverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Save -->
+        <Button
+            android:id="@+id/btnNext"
+            android:text="Save Trip"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

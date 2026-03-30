@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:text="Trip Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Environment -->
+        <TextView android:id="@+id/txtEnvironment" style="@style/TripField"/>
+        <!-- Weather -->
+        <TextView android:id="@+id/txtWeather" style="@style/TripField"/>
+        <!-- Duration -->
+        <TextView android:id="@+id/txtDuration" style="@style/TripField"/>
+        <!-- Temperatures -->
+        <TextView android:id="@+id/txtTemps" style="@style/TripField"/>
+        <!-- Precipitation -->
+        <TextView android:id="@+id/txtPrecip" style="@style/TripField"/>
+        <!-- Wind -->
+        <TextView android:id="@+id/txtWind" style="@style/TripField"/>
+        <!-- Distance -->
+        <TextView android:id="@+id/txtDistance" style="@style/TripField"/>
+        <!-- Elevation -->
+        <TextView android:id="@+id/txtElevation" style="@style/TripField"/>
+        <!-- Difficulty -->
+        <TextView android:id="@+id/txtDifficulty" style="@style/TripField"/>
+        <!-- Nights -->
+        <TextView android:id="@+id/txtNights" style="@style/TripField"/>
+        <!-- Campsite -->
+        <TextView android:id="@+id/txtCampsite" style="@style/TripField"/>
+        <!-- Cook Method -->
+        <TextView android:id="@+id/txtCookMethod" style="@style/TripField"/>
+        <!-- Group Size -->
+        <TextView android:id="@+id/txtGroupSize" style="@style/TripField"/>
+        <!-- Experience -->
+        <TextView android:id="@+id/txtExperience" style="@style/TripField"/>
+        <!-- Navigation -->
+        <TextView android:id="@+id/txtNavigation" style="@style/TripField"/>
+        <!-- Coverage -->
+        <TextView android:id="@+id/txtCoverage" style="@style/TripField"/>
+
+        <TextView
+            android:text="AI Essential Gear"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/ai_essential_gear_list"
+            style="@style/TripField"/>
+
+        <TextView
+            android:text="AI Optional Gear"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/ai_optional_gear_list"
+            style="@style/TripField"/>
+
+        <TextView
+            android:text="AI Warnings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/ai_warnings_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnGenerateAI"
+            android:text="Generate AI Packing List"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</ScrollView>

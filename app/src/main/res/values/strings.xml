@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Pack</string>
+    <string-array name="gear_categories">
+        <item>Shelter</item>
+        <item>Sleeping</item>
+        <item>Cooking</item>
+        <item>Clothing</item>
+        <item>Navigation</item>
+        <item>Safety</item>
+        <item>Misc</item>
+    </string-array>
+
+    <string-array name="gear_conditions">
+        <item>Any</item>
+        <item>Hot</item>
+        <item>Warm</item>
+        <item>Cold</item>
+        <item>Wet</item>
+        <item>Snow</item>
+    </string-array>
+
+    <string-array name="gear_types">
+        <item>Tent</item>
+        <item>Sleeping Bag</item>
+        <item>Sleeping Pad</item>
+        <item>Jacket</item>
+        <item>Clothing</item>
+        <item>Stove</item>
+        <item>Filter</item>
+        <item>Shelter</item>
+        <item>Misc</item>
+    </string-array>
+
+    <string-array name="insulation_types">
+        <item>Down</item>
+        <item>Synthetic</item>
+        <item>Wool</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="gear_condition_status">
+        <item>Good</item>
+        <item>Worn</item>
+        <item>Damaged</item>
+        <item>Leaking</item>
+        <item>Needs Repair</item>
+        <item>Unsafe</item>
+    </string-array>
+
+    <string-array name="terrain_types">
+        <item>Forest</item>
+        <item>Desert</item>
+        <item>Mountains</item>
+        <item>Jungle</item>
+        <item>Tundra</item>
+        <item>Forest</item>
+        <item>Coastal</item>
+    </string-array>
+
+    <string-array name="weather_types">
+        <item>Storm</item>
+        <item>Hot</item>
+        <item>Warm</item>
+        <item>Cold</item>
+        <item>Wet</item>
+        <item>Snow</item>
+        <item>Mixed</item>
+    </string-array>
+
+
+    <string-array name="terrain_difficulty">
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="campsite_types">
+        <item>Backcountry</item>
+        <item>Campground</item>
+        <item>Shelter hut</item>
+        <item>Bivy only</item>
+    </string-array>
+
+    <string-array name="cook_methods">
+        <item>Gas Stove</item>
+        <item>Wood Fire</item>
+        <item>No Cook</item>
+    </string-array>
+
+    <string-array name="experience_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string-array name="fitness_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="navigation_methods">
+        <item>GPS</item>
+        <item>Map and Compass</item>
+        <item>Trail Markers Only</item>
+    </string-array>
+
+    <string-array name="cell_coverage_levels">
+        <item>None</item>
+        <item>Sporadic</item>
+        <item>Good</item>
+    </string-array>
+</resources>
