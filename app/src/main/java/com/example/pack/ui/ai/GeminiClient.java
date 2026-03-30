@@ -27,7 +27,7 @@ public class GeminiClient {
 
         GenerativeModel gm = new GenerativeModel(
                 "gemini-3-flash-preview",
-                "AIzaSyAr8j5r-L_uQWoeuIJM6aRuQvAL16bUfNU",
+                "...........",
                 configBuilder.build()//,
                 //apiVersion:
         );
